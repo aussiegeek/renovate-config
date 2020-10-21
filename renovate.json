@@ -3,6 +3,7 @@
   "extends": ["config:base"],
   "automerge": true,
   "automergeType": "pr-comment",
+  "dependencyDashboard": true,
   "packageRules": [
     {
       "depTypeList": ["devDependencies"],
