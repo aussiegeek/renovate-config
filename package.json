@@ -1,0 +1,24 @@
+{
+  "name": "renovate-config",
+  "scripts": {
+    "prettier:check": "prettier --check .",
+    "test": "renovate-config-validator"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,md,json}": "prettier --write",
+    "package.json": "sort-package-json"
+  },
+  "devDependencies": {
+    "@yarnpkg/pnpify": "^2.3.3",
+    "husky": ">=4",
+    "lint-staged": ">=10",
+    "prettier": "^2.1.2",
+    "renovate": "^23.55.4",
+    "sort-package-json": "^1.46.0"
+  }
+}
