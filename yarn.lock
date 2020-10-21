@@ -337,7 +337,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/pnpify@npm:^2.3.3":
+"@yarnpkg/pnpify@npm:2.3.3":
   version: 2.3.3
   resolution: "@yarnpkg/pnpify@npm:2.3.3"
   dependencies:
@@ -2113,7 +2113,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"husky@npm:>=4":
+"husky@npm:4.3.0":
   version: 4.3.0
   resolution: "husky@npm:4.3.0"
   dependencies:
@@ -2712,7 +2712,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:>=10":
+"lint-staged@npm:10.4.2":
   version: 10.4.2
   resolution: "lint-staged@npm:10.4.2"
   dependencies:
@@ -3759,7 +3759,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:^2.1.2":
+"prettier@npm:2.1.2":
   version: 2.1.2
   resolution: "prettier@npm:2.1.2"
   bin:
@@ -4132,16 +4132,16 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "renovate-config@workspace:."
   dependencies:
-    "@yarnpkg/pnpify": ^2.3.3
-    husky: ">=4"
-    lint-staged: ">=10"
-    prettier: ^2.1.2
-    renovate: ^23.55.4
-    sort-package-json: ^1.46.0
+    "@yarnpkg/pnpify": 2.3.3
+    husky: 4.3.0
+    lint-staged: 10.4.2
+    prettier: 2.1.2
+    renovate: 23.55.4
+    sort-package-json: 1.46.0
   languageName: unknown
   linkType: soft
 
-"renovate@npm:^23.55.4":
+"renovate@npm:23.55.4":
   version: 23.55.4
   resolution: "renovate@npm:23.55.4"
   dependencies:
@@ -4614,7 +4614,7 @@ resolve@^1.10.0:
   languageName: node
   linkType: hard
 
-"sort-package-json@npm:^1.46.0":
+"sort-package-json@npm:1.46.0":
   version: 1.46.0
   resolution: "sort-package-json@npm:1.46.0"
   dependencies:
