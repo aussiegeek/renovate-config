@@ -11,7 +11,7 @@
     },
     {
       "updateTypes": ["patch"],
-      "packageNames": ["^@types/"],
+      "packagePatterns": ["^@types/"],
       "automergeType": "branch",
       "automerge": true
     }
