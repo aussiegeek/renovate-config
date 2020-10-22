@@ -9,7 +9,7 @@
       "automerge": true
     },
     {
-      "updateTypes": ["patch"],
+      "updateTypes": ["minor", "patch"],
       "packagePatterns": ["^@types/"],
       "automerge": true
     }
