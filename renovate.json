@@ -2,6 +2,8 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:base"],
   "dependencyDashboard": true,
+  "schedule": ["on friday"],
+  "timezone": "Australia/Melbourne",
   "packageRules": [
     {
       "depTypeList": ["devDependencies"],
