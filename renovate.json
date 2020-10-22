@@ -5,14 +5,12 @@
   "packageRules": [
     {
       "depTypeList": ["devDependencies"],
-      "automergeType": "branch",
       "updateTypes": ["minor", "patch"],
       "automerge": true
     },
     {
       "updateTypes": ["patch"],
       "packagePatterns": ["^@types/"],
-      "automergeType": "branch",
       "automerge": true
     }
   ]
