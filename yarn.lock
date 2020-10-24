@@ -111,7 +111,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sindresorhus/is@npm:4.0.0":
+"@sindresorhus/is@npm:4.0.0, @sindresorhus/is@npm:^4.0.0":
   version: 4.0.0
   resolution: "@sindresorhus/is@npm:4.0.0"
   checksum: 7022d5037ff778c5c369c353e16a173c3797de5f4196b631ec00b0f710a3ccb016937ce454d4fac6ca32d695ed30a59444e941f8f78ff7692dc3c50959b3fe61
@@ -589,9 +589,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"aws-sdk@npm:2.771.0":
-  version: 2.771.0
-  resolution: "aws-sdk@npm:2.771.0"
+"aws-sdk@npm:2.777.0":
+  version: 2.777.0
+  resolution: "aws-sdk@npm:2.777.0"
   dependencies:
     buffer: 4.9.2
     events: 1.1.1
@@ -602,7 +602,7 @@ __metadata:
     url: 0.10.3
     uuid: 3.3.2
     xml2js: 0.4.19
-  checksum: e0f120ed64264509fa19627d330d5185ee6151d3ef10511dcab7d423ee625402285b789e87ecf525a4aded7f46ea8fc881070b148ec0f163ef0464190aa4551c
+  checksum: 91b79afdcb468df117ff331175aa33dff1fc9107d6fc0f69280d52367a623c91e07eb4c5faea05defd93aa21ec937caa1b3237a85bf18da166ac7799bd082ae4
   languageName: node
   linkType: hard
 
@@ -1098,17 +1098,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"conventional-commits-detector@npm:1.0.2":
-  version: 1.0.2
-  resolution: "conventional-commits-detector@npm:1.0.2"
+"conventional-commits-detector@npm:1.0.3":
+  version: 1.0.3
+  resolution: "conventional-commits-detector@npm:1.0.3"
   dependencies:
     arrify: ^1.0.0
     git-raw-commits: ^2.0.0
-    meow: ^5.0.0
+    meow: ^7.0.0
     through2-concurrent: ^2.0.0
   bin:
-    conventional-commits-detector: ./src/cli.js
-  checksum: 21cecdefad731541516eeb2003301d370783f5ad7e98927ed955e3f86381c87f211ac0348da88c8939f163a96b225bdfecefbc61a9f1277f853d464105000fe3
+    conventional-commits-detector: src/cli.js
+  checksum: 4aa7f157cf92f5d27ff14742f872d44be3c1b5896b720e270ee9381d51799ddbcc359507e57abfe89847f208b6f9f078e877554b26a5137fe5720bd09235ab2a
   languageName: node
   linkType: hard
 
@@ -1923,7 +1923,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"got@npm:11.7.0, got@npm:^11.1.3":
+"got@npm:11.8.0":
+  version: 11.8.0
+  resolution: "got@npm:11.8.0"
+  dependencies:
+    "@sindresorhus/is": ^4.0.0
+    "@szmarczak/http-timer": ^4.0.5
+    "@types/cacheable-request": ^6.0.1
+    "@types/responselike": ^1.0.0
+    cacheable-lookup: ^5.0.3
+    cacheable-request: ^7.0.1
+    decompress-response: ^6.0.0
+    http2-wrapper: ^1.0.0-beta.5.2
+    lowercase-keys: ^2.0.0
+    p-cancelable: ^2.0.0
+    responselike: ^2.0.0
+  checksum: 9ad3dddd7292e34484b314eabfcb140074e70b14e0d501fce6afd341715c2300838d5382392562ce7764c1ac46506d1b835db4f5988053211d5506d5b9a4b849
+  languageName: node
+  linkType: hard
+
+"got@npm:^11.1.3":
   version: 11.7.0
   resolution: "got@npm:11.7.0"
   dependencies:
@@ -2219,7 +2238,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"install-artifact-from-github@npm:^1.1.1":
+"install-artifact-from-github@npm:^1.1.3":
   version: 1.1.3
   resolution: "install-artifact-from-github@npm:1.1.3"
   bin:
@@ -3020,23 +3039,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"meow@npm:^5.0.0":
-  version: 5.0.0
-  resolution: "meow@npm:5.0.0"
-  dependencies:
-    camelcase-keys: ^4.0.0
-    decamelize-keys: ^1.0.0
-    loud-rejection: ^1.0.0
-    minimist-options: ^3.0.1
-    normalize-package-data: ^2.3.4
-    read-pkg-up: ^3.0.0
-    redent: ^2.0.0
-    trim-newlines: ^2.0.0
-    yargs-parser: ^10.0.0
-  checksum: c6093078a0c9654cad7d092e97be37764f32576644aa13a0640de6f7f5f43ce836f1fd8d7541c0871ee814da6c6546ecf27627ff7990901b9ce3558ee061d0a4
-  languageName: node
-  linkType: hard
-
 "meow@npm:^7.0.0":
   version: 7.1.1
   resolution: "meow@npm:7.1.1"
@@ -3261,7 +3263,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nan@npm:^2.14.0, nan@npm:^2.14.1":
+"nan@npm:^2.14.0, nan@npm:^2.14.2":
   version: 2.14.2
   resolution: "nan@npm:2.14.2"
   dependencies:
@@ -3302,7 +3304,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-gyp@npm:^7.1.0, node-gyp@npm:latest":
+"node-gyp@npm:^7.1.2, node-gyp@npm:latest":
   version: 7.1.2
   resolution: "node-gyp@npm:7.1.2"
   dependencies:
@@ -3904,14 +3906,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"re2@npm:1.15.6":
-  version: 1.15.6
-  resolution: "re2@npm:1.15.6"
+"re2@npm:1.15.8":
+  version: 1.15.8
+  resolution: "re2@npm:1.15.8"
   dependencies:
-    install-artifact-from-github: ^1.1.1
-    nan: ^2.14.1
-    node-gyp: ^7.1.0
-  checksum: 3cfc3b013b8aacb7e283f5a5c487754f8a6b970e85fbb938eae5d29eda17167b1e10ee1ef44f714608a50bd321ebafb79141386bf189faf344d7b9ce78eae115
+    install-artifact-from-github: ^1.1.3
+    nan: ^2.14.2
+    node-gyp: ^7.1.2
+  checksum: ff35b3bba59a4ee7f5301f43bf445374cda9ea8aa56eb6bf3c26b877599ca65090818289e3f992fe01aacdcb517042ddcd58c6c1d3121c21c3268e7dd22cbde0
   languageName: node
   linkType: hard
 
@@ -4136,21 +4138,21 @@ __metadata:
     husky: 4.3.0
     lint-staged: 10.4.2
     prettier: 2.1.2
-    renovate: 23.55.4
+    renovate: 23.56.4
     sort-package-json: 1.46.1
   languageName: unknown
   linkType: soft
 
-"renovate@npm:23.55.4":
-  version: 23.55.4
-  resolution: "renovate@npm:23.55.4"
+"renovate@npm:23.56.4":
+  version: 23.56.4
+  resolution: "renovate@npm:23.56.4"
   dependencies:
     "@renovate/pep440": 0.4.1
     "@renovatebot/ruby-semver": 0.2.1
     "@sindresorhus/is": 4.0.0
     "@yarnpkg/core": 2.3.1
     "@yarnpkg/parsers": 2.3.0
-    aws-sdk: 2.771.0
+    aws-sdk: 2.777.0
     azure-devops-node-api: 10.1.1
     bunyan: 1.8.14
     cacache: 15.0.5
@@ -4158,7 +4160,7 @@ __metadata:
     changelog-filename-regex: 2.0.1
     clean-git-ref: 2.0.1
     commander: 6.1.0
-    conventional-commits-detector: 1.0.2
+    conventional-commits-detector: 1.0.3
     deepmerge: 4.2.2
     delay: 4.4.0
     detect-indent: 6.0.0
@@ -4169,7 +4171,7 @@ __metadata:
     fs-extra: 9.0.1
     github-url-from-git: 1.5.0
     global-agent: 2.1.12
-    got: 11.7.0
+    got: 11.8.0
     handlebars: 4.7.6
     handy-redis: 1.8.3
     hasha: 5.2.2
@@ -4193,7 +4195,7 @@ __metadata:
     p-map: 4.0.0
     parse-diff: 0.7.1
     parse-link-header: 1.0.1
-    re2: 1.15.6
+    re2: 1.15.8
     registry-auth-token: 4.2.0
     semver: 7.3.2
     semver-stable: 3.0.0
@@ -4215,7 +4217,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 4d9ef3c4c532e0289f61d6bbca1d0855f7afb9c4ac988821b27095d52817a67b01bc5bee81ea955bfa99ee488f99c238ba5c7d42626fe33b1e253feeab5b2ff0
+  checksum: abdda6c3d4d73c0a640ff4231012fd8f60dece54f1362df21f9664b3778666bfdd121b80774611e47e23caf7f1c1ece51c01e27835a09bb1e0859d58b81ce283
   languageName: node
   linkType: hard
 
@@ -5628,15 +5630,6 @@ resolve@^1.10.0:
   version: 1.10.0
   resolution: "yaml@npm:1.10.0"
   checksum: d4cc9f9724f8d0aebc2cf52e4e6aa7059f12d50deb54b5225d103462fb2af36e5c0bb419101ca4b1f0cd3b4db9e4139cf2c690e863ac6227648d39d6f4e2522c
-  languageName: node
-  linkType: hard
-
-"yargs-parser@npm:^10.0.0":
-  version: 10.1.0
-  resolution: "yargs-parser@npm:10.1.0"
-  dependencies:
-    camelcase: ^4.1.0
-  checksum: fc775037dc0ba363913440db43f8989a65c580048d0dc5735ba7148d622f4f415e8ce651234bc4dd0fc176a944765051ae4242f8d6b545a875d5247e2ed97849
   languageName: node
   linkType: hard
 
