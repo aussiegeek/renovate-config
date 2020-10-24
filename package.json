@@ -19,6 +19,6 @@
     "lint-staged": "10.4.2",
     "prettier": "2.1.2",
     "renovate": "23.55.4",
-    "sort-package-json": "1.46.0"
+    "sort-package-json": "1.46.1"
   }
 }
