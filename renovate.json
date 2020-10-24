@@ -8,12 +8,12 @@
     {
       "depTypeList": ["devDependencies"],
       "updateTypes": ["minor", "patch"],
-      "automerge": true
+      "labels": ["dependencies", "automerge"]
     },
     {
       "updateTypes": ["minor", "patch"],
       "packagePatterns": ["^@types/"],
-      "automerge": true
+      "labels": ["dependencies", "automerge"]
     }
   ]
 }
