@@ -8,12 +8,17 @@
     {
       "depTypeList": ["devDependencies"],
       "updateTypes": ["minor", "patch"],
-      "labels": ["dependencies", "automerge"]
+      "automerge": true,
+      "prConcurrentLimit": 2
     },
     {
       "updateTypes": ["minor", "patch"],
       "packagePatterns": ["^@types/"],
-      "labels": ["dependencies", "automerge"]
+      "automerge": true
+    },
+    {
+      "updateTypes": ["major"],
+      "dependencyDashboardApproval": true
     }
   ]
 }
