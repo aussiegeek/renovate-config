@@ -4,12 +4,13 @@
   "dependencyDashboard": true,
   "schedule": ["on friday"],
   "timezone": "Australia/Melbourne",
+  "labels": ["dependencies"],
   "packageRules": [
     {
       "depTypeList": ["devDependencies"],
       "updateTypes": ["minor", "patch"],
       "automerge": true,
-      "prConcurrentLimit": 2
+      "labels": ["dependencies", "devDependencies"]
     },
     {
       "updateTypes": ["minor", "patch"],
@@ -18,7 +19,8 @@
     },
     {
       "updateTypes": ["major"],
-      "dependencyDashboardApproval": true
+      "dependencyDashboardApproval": true,
+      "labels": ["dependencies", "major-upgrade"]
     }
   ]
 }
