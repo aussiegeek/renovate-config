@@ -2,6 +2,7 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:base"],
   "dependencyDashboard": true,
+  "dependencyDashboardApproval": true,
   "schedule": ["on friday"],
   "timezone": "Australia/Melbourne",
   "labels": ["dependencies"],
@@ -16,11 +17,6 @@
       "updateTypes": ["minor", "patch"],
       "packagePatterns": ["^@types/"],
       "automerge": true
-    },
-    {
-      "updateTypes": ["major"],
-      "dependencyDashboardApproval": true,
-      "labels": ["dependencies", "major-upgrade"]
     }
   ]
 }
