@@ -2835,9 +2835,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:10.5.2":
-  version: 10.5.2
-  resolution: "lint-staged@npm:10.5.2"
+"lint-staged@npm:10.5.4":
+  version: 10.5.4
+  resolution: "lint-staged@npm:10.5.4"
   dependencies:
     chalk: ^4.1.0
     cli-truncate: ^2.1.0
@@ -2856,7 +2856,7 @@ __metadata:
     stringify-object: ^3.3.0
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: 285a0da521786db1a2a98fe875b8c330e9a607fd2d3ff687b6ce4dfa22b38acfd5ab9aaf556c6a4a34164875062a388647fcca9538a70bd01485a5d804a594f1
+  checksum: dbcafe3679668379fc03f3aef481c3f710794ec03dd5c3915f26a0de110977fbcb44b55ab6dfcff9e8e5789c568ea5629e92f55944fc43f6f6fa1890ee5b07ba
   languageName: node
   linkType: hard
 
@@ -4240,7 +4240,7 @@ __metadata:
   dependencies:
     "@yarnpkg/pnpify": 2.4.0
     husky: 4.3.8
-    lint-staged: 10.5.2
+    lint-staged: 10.5.4
     prettier: 2.1.2
     renovate: 23.56.4
     sort-package-json: 1.46.1
