@@ -4243,7 +4243,7 @@ __metadata:
     lint-staged: 10.5.4
     prettier: 2.7.1
     renovate: 23.56.4
-    sort-package-json: 1.49.0
+    sort-package-json: 1.57.0
   languageName: unknown
   linkType: soft
 
@@ -4720,9 +4720,9 @@ resolve@^1.10.0:
   languageName: node
   linkType: hard
 
-"sort-package-json@npm:1.49.0":
-  version: 1.49.0
-  resolution: "sort-package-json@npm:1.49.0"
+"sort-package-json@npm:1.57.0":
+  version: 1.57.0
+  resolution: "sort-package-json@npm:1.57.0"
   dependencies:
     detect-indent: ^6.0.0
     detect-newline: 3.1.0
@@ -4732,7 +4732,7 @@ resolve@^1.10.0:
     sort-object-keys: ^1.1.3
   bin:
     sort-package-json: cli.js
-  checksum: 12b043f75e5d3478f2847bc20f0cc1bfa87ca755a2f365b782e1ab15443bf5cd82627040324c0289fa19e868519dfebea4a64ff80176d373b002a537d98c29db
+  checksum: 4a2dd168deb577970829446cd65bf8b8584bfd11b007ac92e21d0bcd10f21b1d9be2c10a3bd154dd7acb034c676ea815bf300cd125807cff3e84a73eab5093ca
   languageName: node
   linkType: hard
 
