@@ -1,20 +1,16 @@
 {
   "name": "renovate-config",
   "scripts": {
+    "prepare": "husky",
     "prettier:check": "prettier --check .",
     "test": "renovate-config-validator"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   },
   "lint-staged": {
     "*.{js,md,json}": "prettier --write",
     "package.json": "sort-package-json"
   },
   "devDependencies": {
-    "husky": "4.3.8",
+    "husky": "9.1.7",
     "lint-staged": "17.0.7",
     "prettier": "3.8.3",
     "renovate": "43.214.1",
