@@ -8,30 +8,18 @@
   "labels": ["dependencies"],
   "packageRules": [
     {
-      "matchDepTypes": [
-        "devDependencies"
-      ],
-      "matchUpdateTypes": [
-        "minor",
-        "patch"
-      ],
+      "matchDepTypes": ["devDependencies"],
+      "matchUpdateTypes": ["minor", "patch"],
       "automerge": true,
       "labels": ["dependencies", "devDependencies"]
     },
     {
-      "matchUpdateTypes": [
-        "minor",
-        "patch"
-      ],
+      "matchUpdateTypes": ["minor", "patch"],
       "automerge": true,
-      "matchPackageNames": [
-        "/^@types//"
-      ]
+      "matchPackageNames": ["/^@types//"]
     },
     {
-      "matchDepTypes": [
-        "dependencies"
-      ],
+      "matchDepTypes": ["dependencies"],
       "dependencyDashboardApproval": true
     }
   ]
