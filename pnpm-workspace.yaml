@@ -1,0 +1,14 @@
+allowBuilds:
+  core-js-pure: true
+  dtrace-provider: true
+  husky: true
+  protobufjs: true
+  re2: true
+minimumReleaseAgeExclude:
+  - renovate@43.214.1
+onlyBuiltDependencies:
+  - core-js-pure
+  - dtrace-provider
+  - husky
+  - protobufjs
+  - re2
