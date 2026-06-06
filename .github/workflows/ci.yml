@@ -9,10 +9,18 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v1
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v6
+
+      - name: Use Node.js
+        uses: actions/setup-node@v6
         with:
-          node-version: 12.x
-      - run: yarn install
-      - run: yarn prettier:check
-      - run: yarn test
+          node-version: 24.x
+          cache: "pnpm"
+
+      - run: pnpm install
+
+      - run: pnpm prettier:check
+
+      - run: pnpm test
