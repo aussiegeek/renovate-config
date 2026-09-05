@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "husky": "9.1.7",
-    "lint-staged": "17.3.0",
+    "lint-staged": "17.5.0",
     "prettier": "3.9.6",
     "renovate": "43.288.0",
     "sort-package-json": "4.0.0"
